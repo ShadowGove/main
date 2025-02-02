@@ -4,18 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>مجله خبری رویدادهای دولت سایه</title>
-  
-  <!-- متا تگ‌های سئو -->
-  <meta name="description" content="مجله خبری رویدادهای دولت سایه؛ انتشار اخبار، تحلیل‌های مرتبط با افراد و رویدادهای مهم.">
-  <meta name="keywords" content="دولت سایه, اخبار, خائن, صادق جعفری, محمد یاسین سیاقتی, علی‌رضا زرین قلم, مجله خبری">
+  <meta name="description" content="مجله خبری رویدادهای دولت سایه؛ دولت سایه حکومت غیر متمرکز و ناشناس در ریاضی ۳ هست که همراه با نیروی نظامی آن به اسم حزب الریاضی ۳ به فعالیت می‌پردازد.">
+  <meta name="keywords" content="دولت سایه, اخبار, خائن, صادق جعفری, محمد یاسین سیاقتی, علی‌رضا زرین قلم, مجله خبری, حزب الریاضی ۳">
   <meta name="robots" content="index, follow">
-  <meta name="google-site-verification" content="gDIIIqIdWGAdnbvMYCjB8REf_RMGX855flxOAKuuTcM" />
-  
-  <!-- لوگوی سایت (favicon) -->
-  <link rel="icon" href="img/logo.jpg" type="image/jpg">
+  <link rel="icon" href="img/logo.png" type="image/png">
+
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": 'دولت سایه حزب الریاضی ۳',
+        "url": 'https://shadowgove.github.io/main/',
+        "logo": 'https://shadowgove.github.io/main/img/logo.png',
+        "description": "مجله خبری رویدادهای دولت سایه؛ دولت سایه حکومت غیر متمرکز و ناشناس در ریاضی ۳ هست که همراه با نیروی نظامی آن به اسم حزب الریاضی ۳ به فعالیت می‌پردازد.",
+    }
+  </script>
   
   <style>
-    /* Reset و استایل پایه */
     * {
       margin: 0;
       padding: 0;
@@ -41,8 +46,6 @@
       text-decoration: none;
       color: inherit;
     }
-    
-    /* استایل هدر */
     header {
       background: #fdd835;
       padding: 15px;
@@ -75,8 +78,6 @@
       left: 0;
       font-size: 20px;
     }
-    
-    /* استایل محتوای اصلی */
     main {
       flex-grow: 1;
       padding: 20px;
@@ -119,16 +120,29 @@
       font-size: 1.2em;
       color: #222;
     }
-    
-    /* استایل فوتر */
     footer {
       background: #fdd835;
       padding: 20px;
       text-align: center;
       font-size: 0.9em;
     }
-    
-    /* استایل ریسپانسیو برای موبایل */
+    .badge {
+      display: inline-block;
+      padding: 0.35em 0.65em;
+      font-size: 0.75rem;
+      font-weight: 700;
+      line-height: 1;
+      color: #212529;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: 0.375rem;
+    }
+
+    .text-bg-warning {
+        color: #664d03;
+        background-color: #ffca2c;
+    }
     @media (max-width: 768px) {
       article.card {
         flex-direction: column;
@@ -141,102 +155,87 @@
   </style>
 </head>
 <body>
-  <!-- هدر سایت -->
   <header>
     <p class="header-title">خانه</p>
     <div class="moving-text-container">
       <span class="moving-text">اولین لیست خائنان منتشر شد!</span>
     </div>
-    <img class="logo" src="img/logo.jpg" alt="لوگوی دولت سایه">
+    <img class="logo" src="img/logo.png" alt="لوگوی دولت سایه">
   </header>
   
-  <!-- محتوای اصلی -->
   <main>
     <h1>خیانت شما فراموش کردنی نخواهد بود!</h1>
     <section class="articles">
-      
-      <!-- مقاله اول -->
       <article class="card">
         <img class="circle" src="img/1.jpg" alt="عکس صادق جعفری">
         <div class="card-content">
-          <h3>صادق جعفری</h3>
+          <h3>صادق جعفری <span class="badge text-bg-warning">۱ خیانت</span></h3>
           <p>از خائنانی که تمام قد نسبت به همکلاسی‌های خود پشت کرد و آنها را در مقاوتی که هیچ زحمتی برایش نداشت تنها گذاشت، وی اعلام همبستگی کرده بود ولی با این حال پیمان را شکست و برای هیچ از مقاوت خارج شد.</p>
         </div>
       </article>
-      
-      <!-- مقاله دوم -->
       <article class="card">
         <img class="circle" src="img/2.jpg" alt="عکس محمد یاسین سیاقتی">
         <div class="card-content">
-          <h3>محمد یاسین سیاقتی</h3>
+          <h3>محمد یاسین سیاقتی <span class="badge text-bg-warning">۱ خیانت</span></h3>
           <p>بر خلاف بعضی دیگر، زمانی که خبر خیانت از وی شنیده شد کسی متعجب نشد؛ زیر همه پس مدت‌ها با شناختن او می‌دانستند که او نیز خیانت خواهد کرد.</p>
         </div>
       </article>
-      
-      <!-- مقاله سوم -->
       <article class="card">
         <img class="circle" src="img/3.jpg" alt="عکس علی‌رضا زرین قلم">
         <div class="card-content">
-          <h3>علی‌رضا زرین قلم</h3>
+          <h3>علی‌رضا زرین قلم <span class="badge text-bg-warning">۱ خیانت</span></h3>
           <p>وی غیر منتظره به هم‌پیمانانش پشت کرد و آنها را تنها گذاشت.</p>
         </div>
       </article>
-      
-      <!-- مقاله چهارم -->
       <article class="card">
         <img class="circle" src="img/4.jpg" alt="عکس علیرضا صالحی‌رزوه">
         <div class="card-content">
-          <h3>علیرضا صالحی‌رزوه</h3>
+          <h3>علیرضا صالحی‌رزوه <span class="badge text-bg-warning">۱ خیانت</span></h3>
           <p>متأسفانه یا خوبشختانه وی نیز هدفی قابل پیش‌بینی برای خیانت داشت که سرانجام این عمل را انجام داد.</p>
         </div>
       </article>
-      
-      <!-- مقاله پنجم -->
       <article class="card">
         <img class="circle" src="img/5.jpg" alt="عکس شهاب الدین نجفی">
         <div class="card-content">
-          <h3>شهاب الدین نجفی</h3>
+          <h3>شهاب الدین نجفی <span class="badge text-bg-warning">۱ خیانت</span></h3>
           <p>از جمله خائنانی که غیر منتظره خیانت کرد و علاوه بر آن به هم‌پیمانانش دروغ گفت و اعلام شرکت در مقاومت کرد، در حالی که در آخر مقاومتی نکرد و خائن شد.</p>
         </div>
       </article>
-      
-      <!-- مقاله ششم -->
       <article class="card">
         <img class="circle" src="img/6.jpg" alt="عکس ایلیا مرادخانی">
         <div class="card-content">
-          <h3>ایلیا مرادخانی</h3>
+          <h3>ایلیا مرادخانی <span class="badge text-bg-warning">۱ خیانت</span></h3>
           <p>خائن‌ترین و غیرمنتظره‌ترین مقام برای وی است، زیرا بر خلاف اعلام خود خیانت کرد و جبهه را خالی گذاشت.</p>
         </div>
       </article>
-      
-      <!-- مقاله هفتم -->
       <article class="card">
         <img class="circle" src="img/7.jpg" alt="عکس محمد امین کریمی">
         <div class="card-content">
-          <h3>محمد امین کریمی</h3>
+          <h3>محمد امین کریمی <span class="badge text-bg-warning">۱ خیانت</span></h3>
           <p>وی نیز همانطور که انتظار می‌رفت نسبت به مقاومت خیانت کرد؛ در حالی که خودش اعلام شرکت در مقاومت را انجام داده بود.</p>
         </div>
       </article>
-      
-      <!-- مقاله هشتم -->
       <article class="card">
         <img class="circle" src="img/8.jpg" alt="عکس محمد صادق رمضانی">
         <div class="card-content">
-          <h3>محمد صادق رمضانی</h3>
+          <h3>محمد صادق رمضانی <span class="badge text-bg-warning">۱ خیانت</span></h3>
           <p>وی نیز مانند باقی خائنان، بر خلاف پیام شرکتش در مقاومت، خیانت کرد.</p>
         </div>
       </article>
-      
-    </section>
+    </section><br/>
+
+    <div class="card">
+      <h1>دولت سایه چیست؟</h1>
+      <p>دولت سایه حکومت غیر متمرکز و ناشناس در ریاضی ۳ هست که همراه با نیروی نظامی آن به اسم حزب الریاضی ۳ به فعالیت می‌پردازد. از جمله فعالیت های این حکومت رهبری و هدایت ریاضی ۳، شناسایی جاسوسان و خائنان و... به صورت مخفی و ناشناس است.</p>
+      <h1>حزب الریاضی ۳ چیست؟</h1>
+      <p>حزب الریاضی ۳ نیروی نظامی و ناشناس دولت سایه است که تحت فرماندهی آن فعالیت می‌کند</p>
+    </div>
+
   </main>
-  
-  <!-- فوتر سایت -->
   <footer>
     <p>این سرویس جهت انتشار اخبار و رویدادهای <strong>دولت سایه</strong> و همکاری‌های این ارگان با <strong>حزب الریاضی ۳</strong> ساخته شده است.</p>
     <p>طراحی و توسعه شده توسط <strong>دولت سایه</strong></p>
   </footer>
-  
-  <!-- اسکریپت انیمیشن متن متحرک -->
   <script>
     window.onload = function () {
       const text = document.querySelector(".moving-text");
